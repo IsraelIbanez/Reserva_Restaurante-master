@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/muestraDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/hacerOtraReservacion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="hacerOtraReserva"
+        android:text="Completar Reservación"
+        android:layout_below="@+id/txtNumero"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginRight="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/txtNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_below="@+id/txtMail"
+        android:layout_alignLeft="@+id/txtMail" />
+
+    <TextView
+        android:id="@+id/lblMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtNumero"
+        android:layout_alignTop="@+id/txtMail"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/muestraDatos"
+        android:text="Correo:" />
+
+    <TextView
+        android:id="@+id/lblNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtNumero"
+        android:layout_alignLeft="@+id/lblMail"
+        android:layout_alignTop="@+id/txtNumero"
+        android:text="Número:" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\israe\Desktop\Reserva_Restaurante-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="637c20de1756864d1fc10c5772f958def5708180">
+        <dex dex="C:\Users\israe\Desktop\Reserva_Restaurante-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e2fdc3dd798dc0f34172b54704cab8056bf2d4f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\israe\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\israe\Desktop\Reserva\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_c77ddac01f542e2aa228e77374ed97696637577d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\israe\Desktop\Reserva_Restaurante-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\israe\Desktop\Reserva_Restaurante-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f17645e47bdf36573951a241016920568f4029b0\classes.dex" />
+    </item>
+
+</items>

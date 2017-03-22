@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A que Nombre:" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:capitalize="words"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/cuantasPersonas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Personas: %d" />
+
+    <SeekBar
+        android:id="@+id/personas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="30"
+        android:progress="1" />
+
+    <TextView
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:text="Para que Fecha:" />
+
+
+    <Button
+        android:id="@+id/fecha"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="dd - MMMM – yyyy" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:text="Para que Hora:" />
+
+    <Button
+        android:id="@+id/hora"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:text="HH:mm" />
+
+    <Button
+        android:id="@+id/reserva"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:onClick="reserva"
+        android:text="Hacer Reservacion" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:onClick="salir"
+        android:text="Salir" />
+
+
+    <TextView
+        android:id="@+id/txtDatosRegresados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.36" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir página Web"
+        android:id="@+id/buttonNavegador"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="abrirPaginaWeb" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Realizar llamada"
+        android:id="@+id/buttonLlamada"
+        android:layout_below="@+id/buttonNavegador"
+        android:layout_centerHorizontal="true"
+        android:onClick="llamadaTelefono" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir Google Maps"
+        android:id="@+id/buttonMaps"
+        android:layout_below="@+id/buttonLlamada"
+        android:layout_centerHorizontal="true"
+        android:onClick="googleMaps" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomar Foto"
+        android:id="@+id/buttonFoto"
+        android:layout_below="@+id/buttonMaps"
+        android:layout_centerHorizontal="true"
+        android:onClick="tomarFoto" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mandar E-mail"
+        android:id="@+id/buttonEmail"
+        android:layout_below="@+id/buttonFoto"
+        android:layout_centerHorizontal="true"
+        android:onClick="mandarCorreo" />
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
